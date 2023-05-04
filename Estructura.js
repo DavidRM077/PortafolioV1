@@ -23,4 +23,4 @@ function hablar ()
     window.speechSynthesis.speak(voz)
 }
 
-botonAudio.onclick = hablar()
+botonAudio.onclick = hablar;

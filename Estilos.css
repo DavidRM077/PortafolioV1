@@ -66,8 +66,9 @@
 header {
     position: relative;
     background-image: url(/IMG/wallpaperbetter.com_1920x1080.jpg);
-    min-height: 900px;
     height: auto;
+    min-height: 790px;
+    
 }
 
 .BknIninio
@@ -147,6 +148,62 @@ header p {
     transition: all 0.3s ease-out
 }
 
+/* Aqui cierra la columna principal */
+
+section
+{
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.bknhabilidades
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.row h1
+{
+    color: red;
+    text-align: center;
+}
+
+
+
+.contenedoresHabilidad
+{
+    
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.ColH
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.contenedoresHabilidad h2 
+{
+    color: white;
+    
+}
+
+.waves
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    left: 0;
+   
+    background-image: url(/IMG/waves.png);
+}
 
 @media (max-width: 800px) {
 

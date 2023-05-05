@@ -219,6 +219,7 @@ section {
     border-radius: 15px;
     margin-top: 40px;
     position: relative;
+    margin-left: 100px;
 }
 
 .Tarjeta h2 
@@ -234,6 +235,7 @@ section {
     text-align: center;
     font-size: 16px;
     color: white;
+    
 }
 
 .fotoPag {
@@ -359,5 +361,15 @@ a
         width: 50%;
     }
 
+    .Tarjeta {
+        width: 323px;
+        height: 348px;
+        background: #211E1E;
+        margin-left: 20px;
+        border-radius: 15px;
+        margin-top: 40px;
+        position: relative;
+       margin-left: 0;
+    }
 
 }

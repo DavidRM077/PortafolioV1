@@ -68,20 +68,18 @@ header {
     background-image: url(/IMG/wallpaperbetter.com_1920x1080.jpg);
     height: auto;
     min-height: 790px;
-    
+
 }
 
-.BknIninio
-{
+.BknIninio {
     display: grid;
-  place-items: center;
+    place-items: center;
 }
 
-.botones
-{
-   display: flex;
-   justify-items:center;
-   justify-content: center;
+.botones {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 }
 
 .foto {
@@ -124,18 +122,16 @@ header p {
     transform: all 0.3s ease-out;
 }
 
-.sound 
-{
+.sound {
     width: 15em;
     height: 3em;
     background-color: #201F22;
     border-radius: 15px;
     color: white;
-    
+
 }
 
-.sound:hover
-{
+.sound:hover {
     width: 15em;
     height: 3em;
     background-color: #000000;
@@ -150,52 +146,46 @@ header p {
 
 /* Aqui cierra la columna principal */
 
-section
-{
+section {
     position: relative;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
-.bknhabilidades
-{
+.bknhabilidades {
     background-color: rgb(0, 0, 0);
 }
 
-.row h1
-{
+.row h1 {
     color: red;
     text-align: center;
+
 }
 
 
 
-.contenedoresHabilidad
-{
-    
+.contenedoresHabilidad {
+
     margin-top: 40px;
     display: grid;
     justify-content: center;
-    
+
 }
 
-.ColH
-{
-    display:flex;
+.ColH {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
 
 }
 
-.contenedoresHabilidad h2 
-{
+.contenedoresHabilidad h2 {
     color: white;
-    
+
 }
 
-.waves
-{
+.waves {
     position: absolute;
     width: 100%;
     height: 200px;
@@ -204,6 +194,123 @@ section
     left: 0;
     bottom: 0;
 }
+
+/* Aqui Cierra el contenedor de Habilidades */
+
+/* Aqui Inicia el contenedor de proyectos */
+
+.bknProyectos {
+    background-color: black;
+    padding-bottom: 200px;
+    display: grid;
+    place-content: center;
+}
+
+.bknRow
+{
+    
+}
+
+.Tarjeta {
+    width: 323px;
+    height: 348px;
+    background: #211E1E;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.Tarjeta h2 
+{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.Tarjeta p 
+{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.fotoPag {
+
+    width: 293px;
+    height: 155px;
+    margin-top: 10px;
+}
+
+.botones
+{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom:10px;
+}
+
+.btnhub
+{
+    width: 130px;
+height: 40px;
+background-color: black;
+border-radius: 5px;
+
+}
+
+.btnhub:hover
+{
+    width: 130px;
+height: 40px;
+background-color: rgb(41, 40, 40);
+border-radius: 5px;
+
+}
+
+.btnenlace
+{
+    width: 119px;
+    height: 40px;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.btnenlace:hover
+{
+    width: 119px;
+    height: 40px;
+    background-color: rgb(41, 40, 40);
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.fotoi
+{
+    width: 25%;
+}
+
+a
+{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 800px) {
 
@@ -252,5 +359,5 @@ section
         width: 50%;
     }
 
-    
+
 }

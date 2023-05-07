@@ -219,7 +219,7 @@ section {
     border-radius: 15px;
     margin-top: 40px;
     position: relative;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .Tarjeta h2 
@@ -245,69 +245,83 @@ section {
     margin-top: 10px;
 }
 
-.botones2
+.apartadodebotones
 {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    margin-bottom:10px;
+   position: absolute;
+   bottom: 0;
 }
 
-.btnhub
+.botoncodigoCode
 {
-    width: 130px;
-height: 40px;
-background-color: black;
-border-radius: 5px;
-
-}
-
-.btnhub:hover
-{
-    width: 130px;
-height: 40px;
-background-color: rgb(41, 40, 40);
-border-radius: 5px;
-
-}
-
-.btnenlace
-{
-    width: 119px;
-    height: 40px;
+   
+    display: flex;
+    align-items: center;
     background-color: black;
-    margin-left: 10px;
-    border-radius: 5px;
+    width: 130px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
     
 }
 
-.btnenlace:hover
+.botoncodigoCode:hover
 {
-    width: 119px;
-    height: 40px;
-    background-color: rgb(41, 40, 40);
-    margin-left: 10px;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+    width: 130px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 5px;
     
 }
 
 .fotoi
 {
-    width: 25%;
+width: 30%;
+margin-left: 10px;
+margin-bottom: 5px;
 }
 
-a
+.botoncodigoCode a
 {
-    text-decoration: none;
-    outline: none;
-    border: none;
     color: white;
-    text-align: center;
+    text-decoration: none;
+}
+
+
+.botoncodigoLink
+{
+    
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 130px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.botoncodigoLink:hover
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+    width: 130px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 5px;
     
 }
 
-
-
+.botoncodigoLink a
+{
+    color: white;
+    text-decoration: none;
+}
 
 
 

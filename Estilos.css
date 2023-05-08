@@ -420,6 +420,11 @@ margin-bottom: 5px;
     
 }
 
+.redescontenedor a 
+{
+    text-decoration: none;
+}
+
 .apartadoinfo
 {
     position: relative;

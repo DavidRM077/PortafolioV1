@@ -1,9 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+ 
 }
 
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -11,64 +18,12 @@
     background-color: rgb(0, 0, 0);
 }
 
-.navbar-on {
-    background-color: rgb(5, 5, 5);
-
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
-    display: block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 1rem;
-}
-
-.navbar-links li:hover {
-    background-color: #052280;
-
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: rgb(199, 50, 50);
-    border-radius: 10px;
-}
-
-/* Aqui termina el navbar */
-
 
 header {
     position: relative;
     background-image: url(/IMG/wallpaperbetter.com_1920x1080.jpg);
     height: auto;
     min-height: 790px;
-
 }
 
 .BknIninio {
@@ -145,6 +100,57 @@ header p {
 }
 
 /* Aqui cierra la columna principal */
+
+.navbar-on {
+    background-color: rgb(5, 5, 5);
+
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #052280;
+
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(199, 50, 50);
+    border-radius: 10px;
+}
+
+/* Aqui termina el navbar */
 
 section {
     position: relative;
@@ -352,29 +358,31 @@ margin-bottom: 5px;
 {
     background-color: #000000;
     height: 40px;
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     color: white;
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
+    margin-left: 100px;
 }
 
 .txtEmail
 {
     background-color: #000000;
     height: 40px;
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     color: white;
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
+    margin-left: 100px;
 }
 
 .mensaje
 {
-    width: 100%;
+    width: 80%;
     height: 200px;
     background-color: #000000;
     margin-top: 20px;
@@ -382,22 +390,24 @@ margin-bottom: 5px;
     text-align: center;
     font-size: 20px;
     color: white;
+    margin-left: 100px;
 }
 
 .button
 {
-    width: 100%;
+    width: 80%;
     height: 40px;
     border-radius: 20px;
     background-color: white;
     border: solid 3px blue;
+    margin-left: 100px;
 
 }
 
 .button:hover
 {
     color: white;
-    width: 100%;
+    
     height: 40px;
     border-radius: 20px;
     background-image: url(/IMG/material-symbols_send-sharp.png);
@@ -408,6 +418,41 @@ margin-bottom: 5px;
     background-repeat: no-repeat;
     transition: all 0.3seg ease-out;
     
+}
+
+.apartadoinfo
+{
+    position: relative;
+}
+
+.btnDescargar
+{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid blue;
+}
+
+.redes
+{
+    display: flex;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+.redes h4 
+{
+    color: white;
+    margin-left: 10px;
+}
+
+.h3decontactos
+{
+    color: white;
 }
 
 @media (max-width: 800px) {
@@ -478,21 +523,45 @@ margin-bottom: 5px;
     .txtName
     {
         width: 95%;
+       margin-left: 0;
     }
 
     .txtEmail
     {
         width: 95%;
+        margin-left: 0;
     }
 
     .mensaje
     {
         width: 95%;
+        margin-left: 0;
     }
 
     .button
     {
         width: 95%;
+        margin-left: 0;
+        margin-top: 10px;
     }
 
+    .h3decontactos
+    {
+        margin-top: 10px;
+    }
+
+    .apartadoinfo
+    {
+        position: relative;
+    }
+
+    .btnDescargar
+    {
+        position: absolute;
+        bottom: unset;
+        margin-top: 10px;
+    }
+
+    
 }
+

@@ -249,6 +249,17 @@ section {
     width: 293px;
     height: 155px;
     margin-top: 10px;
+    
+}
+
+.fotoPag:hover {
+
+    width: 293px;
+    height: 155px;
+    margin-top: 10px;
+    transform: scale(1.5);
+    transition: .3seg;
+    
 }
 
 .apartadodebotones
